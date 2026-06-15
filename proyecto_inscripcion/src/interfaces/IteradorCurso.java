@@ -1,5 +1,7 @@
 package interfaces;
+import models.Curso;
 
-public class IteradorCurso {
-    
+public interface IteradorCurso {
+    boolean hasNext();
+    Curso next();
 }

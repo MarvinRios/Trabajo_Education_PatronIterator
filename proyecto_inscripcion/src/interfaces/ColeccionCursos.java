@@ -1,5 +1,5 @@
 package interfaces;
 
-public class ColeccionCursos {
-    
+public interface ColeccionCursos {
+    IteradorCurso crearIteradorPorNRC(String nrcBuscado);
 }
